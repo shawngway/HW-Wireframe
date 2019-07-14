@@ -13,9 +13,20 @@
     <!--defining classes for css modifications-->
     <header>header</header>
     <nav> nav</nav>
+    <!--using clearfix to go back to block from float-->
     <div class="clearfix">
         <div class="section">
+            <!--wrapping again to use block from float-->
+            <div class="clearfix">
             <p>section</p>
+            <div class="article">
+                <p>article</p>
+                <div class="article1">h1,h2,h3
+                </div>
+                <div class="article2">p</div>
+            </div>
+            </div>
+
         </div>
         <div class="aside">
              <p>aside</p>
